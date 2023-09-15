@@ -12,7 +12,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   const persons = formData.get("persons");
 
   // Combine the form data into a single string with HTML line breaks
-  const formDataString = `Full Name: ${fullname}, Phone: ${phone}, Amount Paid: ${amount}, No. of Persons: ${persons}`;
+  const formDataString = `Full Name: ${fullname}, Phone: ${phone}, Amount Paid: ${amount}, Pax: ${persons}`;
 
   // Generate the QR code
   const qrcodeDiv = document.getElementById("qrcode");
