@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700");
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.ticketform {
+  margin: 0 auto;
+  width: 35%;
+  padding: 2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 7px 3px #ccc;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+#qrcode {
+  display: inline-block;
+  border: 4px solid white;
+  padding: 10px;
+  background-color: white;
+}
+
+#qrcode canvas {
+  width: 200px;
+  height: 200px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.brand img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .ticketform {
+    width: 80%;
+  }
+}
